@@ -40,12 +40,13 @@ header .background-image{
     background: url('../images/cover.jpg') center bottom fixed no-repeat;
     background-size: cover;
     width: 100%;
+    min-height: 100vh;
 }
 header .background-content {
     text-transform: uppercase;
     color: #808285;
     background-color: rgba(0,0,0,0.5);
-    height: 100%;
+    height: 100vh;
     width: 100%
 }
 
@@ -66,7 +67,7 @@ header nav ul li {
 
 header nav ul li:hover { color: white; }
 
-header .content { text-align: center; width: 600px; margin: 150px auto; }
+header .content { text-align: center; margin: 150px auto; }
 
 header .content h1 { color: white; }
 
